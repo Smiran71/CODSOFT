@@ -1,0 +1,68 @@
+
+body{
+    background-image: url(background.jpeg);
+    background-size: cover;
+
+}
+.container{
+    margin-top: 80px;
+    margin-left: 550px;
+    width: 600px;
+    /* height: 700px; */
+    background-color: rgb(220, 235, 229);
+    box-shadow: 0px 5px 5px rgb(3, 63, 3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    text-align: center;
+    color: green;
+}
+.firstbox{
+    padding: 10px;
+}
+input{
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: 2px solid rgb(3, 63, 3);
+    font-weight: 500px;
+}
+.add{
+    height: 45px;
+    width: 55px ;
+    border:2px solid rgb(3, 63, 3) ;
+    background-color: rgb(36, 78, 36);
+    color: white;
+}
+#list li{
+    list-style-type:none;
+    position: relative;
+    text-align: left;
+    border: 2px solid rgb(3, 63, 3);
+    width: 550px;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px 5px 10px 0px;
+}
+.delete-button{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 42px;
+    width: 55px ;
+    border:2px solid rgb(3, 63, 3) ;
+    background-color: rgb(36, 78, 36);
+    color: white;
+    /* margin-left: 5px; */
+}
+#list ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+#list{
+    /* display: flex; */
+    padding: 20px;
+}
