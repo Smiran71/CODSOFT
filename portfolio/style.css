@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap');
+ body{
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; */
+    overflow: auto;
+    height: 100%;
+    background-color: whitesmoke;
+} 
+
+nav{
+    height: 70px;
+    background-color:violet;
+    border: 1px solid black;
+    box-shadow: 0px 5px  rgb(119, 30, 119) ;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.name{
+    padding: 25px;
+    padding-left: 55px;
+    font-size: larger;
+}
+.list{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    width: 1100px;
+}
+.list ul{
+    display: flex;
+    width: 900px;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:black;
+
+}
+.main{
+    min-height: 100vh;
+}
+ #About{
+    /* border: 2px solid black; */
+    height: 700px;
+    width: 100%;
+    margin: 15px;
+    box-shadow: 0px 5px 5px 3px rgb(223, 106, 233);
+    display: flex;
+}
+#About .left{
+    height: auto;
+    width: 1000px;
+    margin: 25px;
+    padding-top: 75px;
+    padding-left: 25px;
+    background-image: url(background.jpeg);
+    box-shadow: 0px 2px 2px 0px violet ;
+    /* font-family:'Roboto Condensed', sans-serif;   */
+}
+.left p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 22px;
+}
+#About .right{
+    height: auto;
+    width: 700px;
+    margin: 25px;
+   background-image: url(background.jpeg);
+    box-shadow: 0px 2px 2px 0px violet ;
+    /* background-color: aqua; */
+}
+.right .img{
+    margin: 95px;
+    border: 2px solid black;
+    height: 480px;
+    width: 450px;
+    border-radius: 50%;
+}
+.img img{
+    height: 480px;
+    width: 450px;
+    border-radius: 50%;
+}
+.Smiran{
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: blueviolet;
+} 
+#skills{
+    height: 500px;
+    width: 100%;
+    margin: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 5px 5px 3px rgb(223, 106, 233);
+    /* display: flex; */
+    text-align: center;
+}
+#skills .box{
+    height: 450px;
+    width: 90%;
+    margin-left: 65px;
+    display: flex;
+}
+#skills .box .skillLeft{
+    height: 350px;
+    width: 500px;
+    margin: 35px;
+}
+.skillLeft img{
+    margin-top: 35px;
+}
+#skills .box .skillRight{
+    height: 350px;
+    width: 450px;
+    margin: 35px;
+}
+.detbox{
+    width: 400px;
+    height: 350px;
+    margin: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    /* font-size: 22px; */
+}
+.skills{
+    height: 52px;
+    width: 440px;
+    margin: 15px;
+    box-shadow: 0px 5px 5px grey;
+}
+.skillHTML {
+    height: 20px;
+    width: 85%;
+    margin-top:15px;
+    background-color: #f28be6;
+}
+.skillCSS {
+    height: 20px;
+    width: 85%;
+    margin-top:15px;
+    background-color: #f28be6;
+}
+.skillJS {
+    height: 20px;
+    width: 85%;
+    margin-top:15px;
+    background-color: #f28be6;
+}
+.skillPY{
+    height: 20px;
+    width: 85%;
+    margin-top:15px;
+    background-color: #f28be6;
+}
+.skillRight p{
+    text-align: left;
+    margin-left: 5px;
+    font-weight: bold;
+}
+#project{
+    margin: 15px;
+    height: 950px;
+    box-shadow: 0px 5px 5px 3px rgb(223, 106, 233);
+    text-align: center;
+    padding-top: 20px;
+}
+#project .main2 {
+    height: 900px;
+}
+.main2 .first {
+    height: 330px;
+    margin: 25px;
+    display: flex;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    box-shadow: 0px 5px 5px grey;
+}
+.amb {
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+}
+.student{
+    height: 250px;
+    width: 600px;
+    /* border:2px solid black; */
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(student-150187_640.webp);
+    background-size: cover;
+
+
+}
+
+.details1{
+    height: 200px;
+    width: 1000px;
+    /* border: 2px solid black; */
+    margin: 10px;
+    padding: 20px;
+}
+.details2{
+    height: 200px;
+    width: 900px;
+    /* border: 2px solid black; */
+    margin: 10px;
+    padding: 20px;
+}
+.first img{
+    height: 200px;
+    position: absolute;
+    left: 25px;
+    margin-top: 30px;
+}
+#resume{
+    /* border: 2px solid black; */
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 5px 5px 3px rgb(223, 106, 233);
+    text-align: center;
+}
+.forResume{
+    width: 370px;
+    /* border: 2px solid black; */
+    height: 70px;
+    margin-left: 600px;
+    margin-top: 35px;
+    font-size: 22px;
+    /* text-shadow: 0 0 3px #e532d0; */
+    box-shadow: 0px 5px 5px 3px gray;
+}
+#contact{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+ h1{
+    color: rgb(97, 8, 97);
+    text-shadow: 0 0 3px #e532d0;
+    /* text-align: center; */
+}
+.conDiv{
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 535px;
+    width: 500px;
+    height: 200px;
+    padding: 75px;
+    text-align:left;
+    font-size: larger;
+    /* box-shadow: 0px 0px black; */
+    box-shadow: 10px 10px 5px rgb(223, 106, 233) ;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.conDiv:hover
+{box-shadow: 10px 10px 5px rgb(142, 3, 155);
+    font-size: 1.02rem; }
+.conDiv li a{
+    text-shadow: 2px 2px 5px rgb(169, 31, 155);
+     /* text-align:left; */
+}
+.conDiv li{
+     letter-spacing: 3px;
+}
+footer{
+    height: 50px;
+    text-align: center;
+    background-color:violet;
+    padding-top: 25px;
+    box-shadow: 0px 5px  rgb(119, 30, 119) ;
+}
+
