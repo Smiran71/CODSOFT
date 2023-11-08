@@ -1,0 +1,47 @@
+body{
+    margin-top: 12%;
+    background-color: rgb(243, 238, 238);
+    color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin:20px;
+   /* background-color: rgb(78, 91, 86); */
+   text-align: center;
+}
+button{
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 20%;
+    text-align: center;
+    background-color: rgb(112, 110, 110);
+    color: blue;
+    font-size: 18px;
+}
+.Equals{
+    width: 165px;
+    background-color:blue;
+    color: white;
+}
+.operators{
+    background-color: blue;
+    color: white;
+}
+input{
+    height: 60px;
+    width: 330px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.Calculator{
+    text-align: center;
+    background-color:black;
+    padding: 10px;
+    height: 450px;
+    color: white;
+}
